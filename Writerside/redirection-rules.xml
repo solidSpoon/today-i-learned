@@ -10,4 +10,8 @@
         <description>Created after removal of "Empty XML Topic" from Dash Player</description>
         <accepts>Empty-XML-Topic.html</accepts>
     </rule>
+    <rule id="6ae97dd5">
+        <description>Created after removal of "Installation" from solidSpoon's Public Note</description>
+        <accepts>Installation.html</accepts>
+    </rule>
 </rules>
