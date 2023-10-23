@@ -2,8 +2,8 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="dp"
-                 name="Dash Player"
+<instance-profile id="spn"
+                 name="solidSpoon's Public Note"
                  start-page="Home.md">
 
     <toc-element topic="Home.md"/>
