@@ -1,7 +1,7 @@
 # Home
 
-Start typing here...
+![](logo.png){width="200"}
 
-<tldr>hello</tldr>
+Start typing here...
 
 <note>een</note>

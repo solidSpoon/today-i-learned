@@ -7,7 +7,7 @@
                  start-page="Home.md">
 
     <toc-element topic="Home.md"/>
-    <toc-element topic="Empty-XML-Topic.topic"/>
     <toc-element topic="Installation.md"/>
+    <toc-element topic="Usage.md"/>
     <toc-element topic="Default-topic.md"/>
 </instance-profile>
