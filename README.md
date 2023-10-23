@@ -1,4 +1,3 @@
 # public-note
-DashPlayer Docs
 
-我的公开笔记
+我的公开笔记，Powered by [JetBrains Writerside](https://www.jetbrains.com/writerside/)
