@@ -7,5 +7,5 @@
                  start-page="Home.md">
 
     <toc-element topic="Home.md"/>
-    <toc-element topic="Spring-事务传播特性.md"/>
+    <toc-element topic="spring-transaction-propagation.md"/>
 </instance-profile>
