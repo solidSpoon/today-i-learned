@@ -24,8 +24,14 @@ jobs:
            rm ./_sidebar.md
            docsify generate .
            git add _sidebar.md
-           git commit -m "index file by github actions"
-           git push origin docs
+      - name: Add & Commit
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: 'solidSpoon'
+          author_email: 'solidSpoon@outlook.com'
+          message: 'index file by github actions'
+          push: true
+          branch: 'master'
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
