@@ -29,4 +29,3 @@ jobs:
           author_email: 'solidSpoon.outlook.com'
           message: 'Update _sidebar.md by github actions'
           push: true
-          branch: 'master'
