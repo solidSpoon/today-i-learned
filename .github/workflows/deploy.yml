@@ -5,34 +5,29 @@ on:
     branches: [ "master" ]
 
 jobs:
-  Explore-GitHub-Actions:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      - name: Check out repository code
+      - name: Checkout repository code
         uses: actions/checkout@v3
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      - name: Generate index readme
-        uses: actions/setup-node@v3
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2
         with:
           node-version: 14
-      - run: |
-           npm -g install docsify-cli
+
+      - name: Install and run docsify-cli
+        run: |
+           npm install -g docsify-cli
            rm ./_sidebar.md
            docsify generate .
            git add _sidebar.md
+
       - name: Add & Commit
         uses: EndBug/add-and-commit@v7
         with:
           author_name: 'solidSpoon'
-          author_email: 'solidSpoon@outlook.com'
-          message: 'index file by github actions'
+          author_email: 'solidSpoon.outlook.com'
+          message: 'Update _sidebar.md by github actions'
           push: true
           branch: 'master'
-      - name: List files in the repository
-        run: |
-          ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
