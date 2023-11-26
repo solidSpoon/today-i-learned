@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "db607d046b906257",
+    "type": "split",
+    "children": [
+      {
+        "id": "976c22144310c19f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8d6a01fe59e7532",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "707f6e5286549561",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc4ae377fb18d80a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e94563eaf62afae",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "450506f9976ed4ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ecf2d9b7ec9c432d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 360.5
+  },
+  "right": {
+    "id": "43960e2e8c1f4e04",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa6c0b0c754b866c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4516e3bbaa18585e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "159ceeed3b3197e3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3a5f654c92bf5ae3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2a36a6075d215d30",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "99e7ca1c704f2e6c",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 458.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2a36a6075d215d30",
+  "lastOpenFiles": [
+    "README.md",
+    "sortspec.md",
+    "sortspe.md",
+    "Regex/11_匹配原理、优化原则.md",
+    "Database/User-Defined_Variables.md",
+    "Database/Table_Columns_and_explanations.md",
+    "random/GitHub_Actions_自动部署_Hexo.md",
+    "random/网页可视化编辑.md",
+    "random/cron_expression.md",
+    "random/Bloom_Filter.md",
+    "random/binary_algorithm.md",
+    "_sidebar.md",
+    "2023-11-26.md"
+  ]
+}
